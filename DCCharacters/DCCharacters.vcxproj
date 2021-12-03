@@ -160,8 +160,19 @@
   <ItemGroup>
     <ClInclude Include="..\sa2-mod-loader\mod-loader-common\ModLoaderCommon\IniFile.hpp" />
     <ClInclude Include="..\sa2-mod-loader\mod-loader-common\ModLoaderCommon\TextConv.hpp" />
+    <ClInclude Include="Amy.h" />
+    <ClInclude Include="Big.h" />
+    <ClInclude Include="Chaos.h" />
+    <ClInclude Include="ChaoWalker.h" />
+    <ClInclude Include="Knuckles.h" />
+    <ClInclude Include="MechEggman.h" />
+    <ClInclude Include="MechTails.h" />
+    <ClInclude Include="Rouge.h" />
+    <ClInclude Include="Shadow.h" />
+    <ClInclude Include="Sonic.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Tikal.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\sa2-mod-loader\mod-loader-common\ModLoaderCommon\IniFile.cpp" />
