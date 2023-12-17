@@ -205,3 +205,10 @@ AnimationInfo BigAnimationList[] = {
 	{ 200, 473, 4, 0, 0.25f, 0.4f },
 	{ 201, 473, 4, 0, 0.25f, 0.4f }
 };
+
+NJS_TEXNAME bigtexnames[] = {
+	{ "zanki_big0", 0, 0 },
+	{ "zanki_big1", 0, 0 }
+};
+//Big's life icon texlist
+NJS_TEXLIST biglife = { bigtexnames, 2 };

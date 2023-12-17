@@ -66,6 +66,9 @@
     <ClInclude Include="ChaoWalker.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DCCharacters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -82,6 +85,12 @@
     </ClCompile>
     <ClCompile Include="..\sa2-mod-loader\mod-loader-common\ModLoaderCommon\TextConv.cpp">
       <Filter>Source Files\external</Filter>
+    </ClCompile>
+    <ClCompile Include="Definitions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sonic.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

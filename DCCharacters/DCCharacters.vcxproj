@@ -126,7 +126,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;DCCHARACTERS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>false</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)\sa2-mod-loader\SA2ModLoader\include;$(SolutionDir)\sa2-mod-loader\mod-loader-common\ModLoaderCommon;$(SolutionDir)\sa2-mod-loader\libmodutils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\sa2-mod-loader\mod-loader-common\ModLoaderCommon;$(SolutionDir)\sa2-mod-loader\libmodutils;$(SolutionDir)\sa2-mod-loader\SA2ModLoader\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -166,6 +166,7 @@
     <ClInclude Include="Big.h" />
     <ClInclude Include="Chaos.h" />
     <ClInclude Include="ChaoWalker.h" />
+    <ClInclude Include="DCCharacters.h" />
     <ClInclude Include="Knuckles.h" />
     <ClInclude Include="MechEggman.h" />
     <ClInclude Include="MechTails.h" />
@@ -180,7 +181,9 @@
     <ClCompile Include="..\sa2-mod-loader\mod-loader-common\ModLoaderCommon\IniFile.cpp" />
     <ClCompile Include="..\sa2-mod-loader\mod-loader-common\ModLoaderCommon\TextConv.cpp" />
     <ClCompile Include="DCCharacters.cpp" />
+    <ClCompile Include="Definitions.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Sonic.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
